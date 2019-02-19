@@ -1,0 +1,23 @@
+{
+  "name": "node-raspberrypi-garage",
+  "version": "0.0.1",
+  "main": "app.coffee",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "keywords": [
+    "gpio",
+    "automation",
+    "home",
+    "smart",
+    "garage"
+  ],
+  "author": "Matthew Huie",
+  "license": "MIT",
+  "repository": "github:matthewhuie/node-raspberrypi-garage",
+  "dependencies": {
+    "coffeescript": "^2.3.2",
+    "express": "^4.16.4",
+    "rpio": "^1.0.13"
+  }
+}
